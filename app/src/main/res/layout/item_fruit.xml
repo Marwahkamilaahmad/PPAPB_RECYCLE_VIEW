@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="20dp"
+    android:paddingHorizontal="30dp"
+    >
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/img_icon"
+        android:src="@drawable/cherry"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentLeft="true"/>
+
+    <ImageView
+        android:layout_marginLeft="100dp"
+        android:src="@drawable/baseline_add_box_35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkout"
+        android:layout_alignParentEnd="true"
+
+        />
+
+    <TextView
+        android:id="@+id/nama_txt"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/img_icon"
+        android:layout_marginLeft="10dp"
+        android:text="Nama Buah"
+        />
+    <TextView
+        android:id="@+id/harga_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nama_txt"
+        android:layout_toRightOf="@+id/img_icon"
+        android:layout_marginLeft="10dp"
+        android:text="Harga Buah"
+        />
+    <TextView
+        android:id="@+id/lokasi_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/harga_txt"
+        android:layout_toRightOf="@+id/img_icon"
+        android:text="lokasi buah"
+        />
+
+</RelativeLayout>
